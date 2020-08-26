@@ -1,0 +1,52 @@
+Request method:	POST
+Request URI:	http://192.168.2.78:8070/chatak-tms-services/tms/rest/tposInitialize/v2.0?grant_type=client_credentials
+Proxy:			<none>
+Request params:	<none>
+Query params:	grant_type=client_credentials
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer e526dd57-de7c-4552-8c4d-fa4f6c993152
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "deviceInfo": {
+        "deviceManufacturer": "Sony",
+        "deviceModel": "S23",
+        "deviceName": "456378388383838",
+        "deviceOS": "Android",
+        "deviceOSversion": "1.0",
+        "deviceSerialNumber": "456378388383838",
+        "deviceType": "TPOS"
+    },
+    "imei": "343434567675444",
+    "merchantId": "",
+    "TerminalId": "",
+    "supportedApplications": [
+        
+    ]
+}
+HTTP/1.1 200 
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+Access-Control-Allow-Headers: Authorization
+Access-Control-Max-Age: 1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 26 Aug 2020 04:24:24 GMT
+
+{
+    "responseCode": "00",
+    "responseMessage": "No Updates Available",
+    "heartBeatFrequency": "5461720426",
+    "heartBeatScheduledTime": "77562",
+    "deviceSerialNumber": "456378388383838",
+    "requestId": "f83fd8c7-2e80-4ae2-9a9f-90e7d834129b",
+    "tPOSInitializeFrequency": "99",
+    "tPOSInitializeScheduledTime": "78662",
+    "supportedApplications": [
+        
+    ]
+}
